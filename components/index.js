@@ -3,7 +3,7 @@ import avButton from './button'
 import avIcon from './icon'
 import { avRow, avCol } from './grid'
 
-const components = {
+let components = {
   avAlert,
   avButton,
   avButtonGroup: avButton.avButtonGroup,
