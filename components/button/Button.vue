@@ -16,7 +16,7 @@
 
   export default {
     name: 'av-button',
-    components: {avIcon},
+    components: { avIcon },
     props: {
       type: {
         validator (value) {

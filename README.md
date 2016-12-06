@@ -35,17 +35,15 @@ antd-vue/
 |--build/              Webpack 配置文件
 |--components/         组件
 |  |--xxx/             xxx组件
-|  |  |--demo/         组件用法示例
 |  |  |--style/        组件样式
 |  |  |--index.js      导出组件
 |  |  |--xxx.vue       组件 .vue 文件
-|  |  `--index.md      组件文档
 |  |--_untils/         工具方法
 |  `--style/           组件公共样式
 |--dist/               编译文件
 |  |--antd-vue.js      Build 的组件入口
 |  `--main.js          Build 的 Demo 入口
-`--src/                文档
+`--docs/               文档 & 示例
 ```
 
 ## 组件

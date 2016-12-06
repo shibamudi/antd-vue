@@ -1,15 +1,15 @@
 <template>
   <div class="icon">
-    <markdown file="components/icon/index.md"></markdown>
+    <markdown file="docs/components/icon/index.md"></markdown>
   </div>
 </template>
 
 <script>
+  import Markdown from '../components/Markdown.vue'
   import { avIcon } from '../../components'
-  import markdown from '../components/Markdown.vue'
 
   export default {
     name: 'icon',
-    components: { avIcon, markdown }
+    components: { Markdown, avIcon }
   }
 </script>

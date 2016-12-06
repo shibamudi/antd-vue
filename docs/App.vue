@@ -67,7 +67,7 @@
   .menu {
     width: 200px;
     height: calc(100% - 56px);
-    padding-top: 20px;
+    padding: 20px 0 30px;
     background: white;
     border-right: 1px solid #e0e0e0;
     float: left;

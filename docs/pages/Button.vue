@@ -1,6 +1,6 @@
 <template>
   <div class="button">
-    <markdown file="components/button/index.md"></markdown>
+    <markdown file="docs/components/button/index.md"></markdown>
 
     <div class="demo button-basic">
       <div class="example">
@@ -9,7 +9,7 @@
         <av-button type="ghost">Ghost</av-button>
         <av-button type="dashed">Dashed</av-button>
       </div>
-      <markdown file="components/button/demo/basic.md"></markdown>
+      <markdown file="docs/components/button/demo/basic.md"></markdown>
     </div>
 
     <div class="demo button-icon">
@@ -24,7 +24,7 @@
         <av-button type="dashed" shape="circle-outline" icon="search"></av-button>
         <av-button type="dashed" icon="search">Search</av-button>
       </div>
-      <markdown file="components/button/demo/icon.md"></markdown>
+      <markdown file="docs/components/button/demo/icon.md"></markdown>
     </div>
 
     <div class="demo button-size">
@@ -33,7 +33,7 @@
         <av-button type="primary">Default</av-button>
         <av-button type="primary" size="small">Small</av-button>
       </div>
-      <markdown file="components/button/demo/size.md"></markdown>
+      <markdown file="docs/components/button/demo/size.md"></markdown>
     </div>
 
     <div class="demo button-disabled">
@@ -50,7 +50,7 @@
         <av-button type="dashed">Dashed</av-button>
         <av-button type="dashed" disabled>Dashed(disabled)</av-button>
       </div>
-      <markdown file="components/button/demo/disabled.md"></markdown>
+      <markdown file="docs/components/button/demo/disabled.md"></markdown>
     </div>
 
     <div class="demo button-loading">
@@ -58,7 +58,7 @@
         <av-button type="primary" loading>Loading</av-button>
         <av-button type="primary" size="small" loading>Loading</av-button>
       </div>
-      <markdown file="components/button/demo/loading.md"></markdown>
+      <markdown file="docs/components/button/demo/loading.md"></markdown>
     </div>
 
     <div class="demo button-group">
@@ -94,18 +94,18 @@
           <av-button type="primary" icon="cloud-download"></av-button>
         </av-button-group>
       </div>
-      <markdown file="components/button/demo/button-group.md"></markdown>
+      <markdown file="docs/components/button/demo/button-group.md"></markdown>
     </div>
   </div>
 </template>
 
 <script>
+  import Markdown from '../components/Markdown.vue'
   import { avButton, avButtonGroup, avIcon } from '../../components'
-  import markdown from '../components/Markdown.vue'
 
   export default {
     name: 'button',
-    components: { avButton, avButtonGroup, avIcon, markdown }
+    components: { Markdown, avButton, avButtonGroup, avIcon }
   }
 </script>
 

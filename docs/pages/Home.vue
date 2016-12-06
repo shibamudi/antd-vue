@@ -5,10 +5,10 @@
 </template>
 
 <script>
-  import markdown from '../components/Markdown.vue'
+  import Markdown from '../components/Markdown.vue'
 
   export default {
     name: 'home',
-    components: { markdown }
+    components: { Markdown }
   }
 </script>

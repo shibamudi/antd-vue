@@ -1,12 +1,12 @@
 <template>
   <div class="alert">
-    <markdown file="components/alert/index.md"></markdown>
+    <markdown file="docs/components/alert/index.md"></markdown>
 
     <div class="demo alert-basic">
       <div class="example">
         <avAlert type="success">Success Text</avAlert>
       </div>
-      <markdown file="components/alert/demo/basic.md"></markdown>
+      <markdown file="docs/components/alert/demo/basic.md"></markdown>
     </div>
 
     <div class="demo alert-style">
@@ -16,7 +16,7 @@
         <avAlert type="warning">Warning Text</avAlert>
         <avAlert type="error">Error Text</avAlert>
       </div>
-      <markdown file="components/alert/demo/style.md"></markdown>
+      <markdown file="docs/components/alert/demo/style.md"></markdown>
     </div>
 
     <div class="demo alert-closable">
@@ -29,7 +29,7 @@
           <span slot="description">Error Description Error Description Error Description Error Description Error Description Error Description</span>
         </avAlert>
       </div>
-      <markdown file="components/alert/demo/closable.md"></markdown>
+      <markdown file="docs/components/alert/demo/closable.md"></markdown>
     </div>
 
     <div class="demo alert-description">
@@ -51,7 +51,7 @@
           <span slot="description">Error Description Error Description Error Description Error Description</span>
         </avAlert>
       </div>
-      <markdown file="components/alert/demo/description.md"></markdown>
+      <markdown file="docs/components/alert/demo/description.md"></markdown>
     </div>
 
     <div class="demo alert-icon">
@@ -77,7 +77,7 @@
           <span slot="description">his is an error message about copywriting.</span>
         </avAlert>
       </div>
-      <markdown file="components/alert/demo/icon.md"></markdown>
+      <markdown file="docs/components/alert/demo/icon.md"></markdown>
     </div>
 
     <div class="demo alert-close-text">
@@ -87,7 +87,7 @@
           <span slot="closeText">Close Now</span>
         </avAlert>
       </div>
-      <markdown file="components/alert/demo/close-text.md"></markdown>
+      <markdown file="docs/components/alert/demo/close-text.md"></markdown>
     </div>
 
     <div class="demo alert-banner">
@@ -96,7 +96,7 @@
         <br>
         <avAlert banner closable>Very long warning text warning text text text text text text text</avAlert>
       </div>
-      <markdown file="components/alert/demo/banner.md"></markdown>
+      <markdown file="docs/components/alert/demo/banner.md"></markdown>
     </div>
   </div>
 </template>
